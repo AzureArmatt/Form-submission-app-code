@@ -1,0 +1,53 @@
+.dataForm{
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 1rem;
+    background-color: rgb(23, 23, 27);
+    color:azure;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+}
+
+.dataForm label{
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
+
+.dataForm input,
+.dataForm textarea{
+    margin: 0.3rem 10%;
+    width: 80%;
+    border-style: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+}
+
+.dataForm input:focus,
+.dataForm textarea:focus{
+    outline: none;
+}
+
+.dataForm textarea{
+    height: 10rem;
+    resize: none;
+}
+
+.dataForm button{
+    outline: none;
+    background-color: azure;
+    color: rgb(23,23,23);
+    padding: 0.5rem 1.2rem;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.dataForm button:hover{
+    background-color: rgba(240, 255, 255, 0.856);
+}
+
+.error{
+    color: rgb(248, 166, 166);
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}

@@ -1,0 +1,18 @@
+.card{
+    background-color:rgb(2, 24, 37);
+    margin: 1rem auto;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+.card h3{
+    text-align: center;
+    color: Yellow;
+    font-size: 2rem;
+}
+
+.card p{
+    color: Yellow;
+    font-size: 1.1rem;
+}

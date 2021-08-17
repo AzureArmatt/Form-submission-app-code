@@ -1,0 +1,34 @@
+.homepage{
+    padding-top: 3rem;
+}
+
+.welcome{
+    text-align: center;
+    margin: 0;
+    font-size: 5rem;
+}
+
+.instructions{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.formlinks{
+    margin: 5rem 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formlink:link, .formlink:visited{
+    background-color:rgb(2, 24, 37);
+    padding: 0.7rem;
+    color:azure;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.3s all;
+}
+
+.formlink:hover, .formlink:active{
+    background-color:rgb(4, 42, 65);
+}
