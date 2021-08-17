@@ -1,0 +1,30 @@
+.navigation{
+  background-color:rgb(2, 24, 37);
+  text-align: center;
+  margin-top: none;
+  height: 10vh;
+}
+
+.links{
+  display:flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navlink:link, .navlink:visited{
+  text-decoration: none;
+  color:azure
+}
+
+.navlink:hover, .navlink:active{
+  text-decoration: underline yellow;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+
+
